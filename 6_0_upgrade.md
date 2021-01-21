@@ -6,12 +6,10 @@ straightforward.
 
 ## Preparation
 
-1. If your `source_path` is `app/javascript`, rename it to `app/packs`
-2. If your `source_entry_path` is `app/javascript/packs`, rename it to `app/packs/entrypoints`
-3. Rename `config/webpack` to `config/webpack_old`
-4. Rename `config/webpacker.yml` to `config/webpacker_old.yml`
-5. Uninstall the current version of `webpack-dev-server`: `yarn remove webpack-dev-server`
-6. Upgrade webpacker
+1. Rename `config/webpack` to `config/webpack_old`
+2. Rename `config/webpacker.yml` to `config/webpacker_old.yml`
+3. Uninstall the current version of `webpack-dev-server`: `yarn remove webpack-dev-server`
+4. Upgrade webpacker
 
   ```ruby
   # Gemfile
